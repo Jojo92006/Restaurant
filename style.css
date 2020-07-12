@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: arial;
+    text-align: center;
+}
+
+ h1.title{
+     margin: 30px;
+}
+div.sandwiches{
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.g1{
+    display: flex;
+}
+div.g2{
+    display: flex;
+}
+div.sandwich{
+    margin: 70px;
+    color: darkblue;
+    text-align: center;
+    margin-top: -2px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.sandwich div.img{
+    background-image: url("images/Cheese%20Burger.jpg");
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    
+}
+div.sandwich div.img2{
+    background-image: url("images/Double%20cheese%20burger.jpg");
+}
+div.sandwich div.img3{
+    background-image: url("images/Triple%20cheese%20burger.jpg");
+}
+div.sandwich div.img4{
+    background-image: url("images/chicken%20burger.jpg");
+}
+div.sandwich div.img5{
+    background-image: url("images/old%20school.jpg");
+}
+div.sandwich div.img6{
+    background-image: url("images/hodge%20podge.jpg");
+}
+div.sandwich button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
